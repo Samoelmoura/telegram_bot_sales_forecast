@@ -14,7 +14,7 @@ TOKEN = '6256143671:AAEO718EUVu0qU2IGwtlCeHWqf92QH_B770'
 # https://api.telegram.org/bot6256143671:AAEO718EUVu0qU2IGwtlCeHWqf92QH_B770/setWebhook?url=https://sales-forecast-telegram-samoel.herokuapp.com/
 
 def get_data(data):
-    url = 'https://sales-forecast-predict-samoel.herokuapp.com/predict'
+    url = 'https://webapp-sales-forecast.onrender.com/predict'
     headers = {'Content-type':'application/json'}
     data = data
     r = requests.post(url=url, headers=headers, data=data)
